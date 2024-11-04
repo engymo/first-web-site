@@ -1,5 +1,8 @@
 body {
     text-transform: capitalize;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .fixed{
     width: 40px;
@@ -15,7 +18,7 @@ body {
     float: left;
 }
 .image img {
-    width: 100%;
+    width: 90%;
 }
 .links {
     float: right;
@@ -29,7 +32,7 @@ body {
 .section1 {
     height:550px ;
     background-image: url(image/0cc4327c9bbf221ebeb7bc89ff0625b0.jpg);
-    background-size: 100% 100%;
+    background-size:100% 150%;
     background-attachment: fixed;
 }
 .links ul li {
@@ -106,17 +109,17 @@ li {
     background-color: rgb(222, 236, 232);
 }
 .info3{
-    width: 40%;
+    width: 45%;
     float: left;
     padding-top: 90px;
     padding-left: 10px;
 }
 .image3{   
-    width: 55%;
+    width: 54%;
     float: left;
 }
 .image3 img{
-    width: 100%;
+    width: 80%;
 }
 
 .info4{
@@ -146,7 +149,8 @@ img{
     width: 30%;   
 }   
 .image5 img{
-    width: 100%;
+    width: 
+    100%;
 }
 .section6{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
